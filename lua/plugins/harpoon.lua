@@ -39,6 +39,7 @@ return {
 
         vim.keymap.set("n", "<leader>tq", function() toggle_telescope(harpoon:list()) end,
         { desc = "Open harpoon window" })
- 
+harpoon.setup()
+save_on_toggle = true
     end
 }
